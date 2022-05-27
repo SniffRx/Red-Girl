@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- meta name="viewport" content="width=device-width, initial-scale=1" -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <meta name="theme-color" content="#000">
+    <meta name="color-scheme" content="dark">
+    <title>SniffRx Projects</title>
+</head>
+
+<body>
+    <div id="parallax">
+        <div class="gradient-lines"></div>
+            <div class="hero-container">
+                <h1><a class="btn" href="//vk.com/sniffrx" target="_blank"><i class="fa-brands fa-vk"></i></a> <a
+                        class="btn" href="//t.me/sniffrxlife" target="_blank"><i
+                            class="btn fa-brands fa-telegram"></i></a> <a class="btn" href="//discord.gg/gFnZ6u7Jpq"
+                        target="_blank"><i class="btn fa-brands fa-discord"></i></a></h1>
+                <h2 class="hero glitch layers" data-text="SniffRx"><span>SniffRx</span></h2>
+            </div>
+        <div id="app-cover">
+            <div id="player">
+                <div id="player-track">
+                    <div class="repeat"><i class="fa-solid fa-repeat"></i></div>
+                    <div id="album-name"></div>
+                    <div id="track-name"></div>
+                    <div id="track-time">
+                        <div id="current-time"></div>
+                        <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                        <div id="ins-time"></div>
+                        <div id="s-hover"></div>
+                        <div id="seek-bar"></div>
+                    </div>
+                    <div class="chrome">
+                        <input type="range" id="volume" name="volume" min="0" max="10">
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+                            class="active" id="_1">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg"
+                            id="_2">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg"
+                            id="_3">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg"
+                            id="_4">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg"
+                            id="_5">
+                        <div id="buffer-box">Buffering ...</div>
+                    </div>
+                    <div id="player-controls">
+                        <div class="control">
+                            <div class="button" id="play-previous">
+                                <i class="fas fa-backward"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-pause-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-next">
+                                <i class="fas fa-forward"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/player.js"></script>
+<script src="/js/mouseMoveParallax.js"></script>
